@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "BungeeSpice";
+  src: url("public/fonts/BungeeSpice-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NTSC";
+  src: url("public/fonts/NotoSansSC.otf");
+}
+
+@font-face {
+  font-family: "NTSCL";
+  src: url("public/fonts/NotoSansSC-Light.otf")
+}
+
+@font-face {
+  font-family: "NTMONO";
+  src: url("public/fonts/NotoSansMono.ttf")
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("public/fonts/Roboto-Regular.ttf")
+}
+
+#logo{
+  margin-top: 40px;
+  font-family: "BungeeSpice";
+  font-size: 24px;
+}
+
+#Container{
+  width: 448px;
+  height: 600px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#title{
+  font-family: "NTSC";
+  font-size: 26px;
+}
+
+#logoT{
+  font-family: "NTSC"
+}
+
+#instruction{
+  font-family: "NTSCL";
+}
+
+#nameBox #username{
+  box-sizing: border-box;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  height: 54px;
+  width: 366px;
+  padding: 13px 15px;
+  font-family: "Roboto";
+  font-size: 17px;
+}
+
+#username:focus{
+  outline: none;
+  /*border: 2px solid orange;*/
+}
+
+.alert{
+  font-size: 16px;
+  font-family: NTSC;
+}
+
+#tips{
+  width: 366px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -30px;
+  color: #ff8800;
+  cursor: pointer;
+}
+
+#pswdBox{
+  position: relative;
+}
+
+.redX{
+  font-size: 22px;
+  position: absolute;
+  color: red;
+  top: 11px;
+  right: 10px;
+}
+
+#password{
+  box-sizing: border-box;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  height: 54px;
+  width: 366px;
+  padding: 13px 15px;
+  font-family: "Roboto";
+  font-size: 17px;
+}
+
+#password:focus{
+  outline: none;
+  /*border: 2px solid orange;*/
+}
+
+#smallWord{
+  font-family: NTSCL;
+}
+
+#safeTips{
+  margin-top: -28px;
+}
+
+#Details{
+  cursor: pointer;
+  color: #ff8800;
+}
+
+#operateOptions{
+  width: 366px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:40px;
+}
+
+#toCreate{
+  font-family: NTSC;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 30px;
+  color: #ff8800;
+  text-decoration: none;
+}
+
+#toCreate:hover{
+  background-color: rgba(255, 136, 0, 0.07);
+}
+
+#loginButton{
+  cursor: pointer;
+  font-family: NTSC;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff8800;
+  color: white;
+}
